@@ -1,6 +1,6 @@
 import { bubbleSort } from '@code/BubbleSort';
 
-test('bubble-sort', function () {
+test(bubbleSort.name, () => {
   const arr = [9, 3, 7, 4, 69, 420, 42];
 
   bubbleSort(arr);
