@@ -1,3 +1,1 @@
-export default function post_order_search(head: BinaryNode<number>): number[] {
-
-}
+export const btPostOrder = (head: BinaryNode<number>): number[] => {};

@@ -1,3 +1,1 @@
-export default function pre_order_search(head: BinaryNode<number>): number[] {
-
-}
+export const btPreOrder = (head: BinaryNode<number>): number[] => {};

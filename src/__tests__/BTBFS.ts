@@ -1,12 +1,8 @@
-import bfs from "@code/BTBFS";
-import { tree } from "./tree";
+import { btbfs } from '@code/BTBFS';
+import { tree } from './tree';
 
-test("bt bfs", function () {
-    expect(bfs(tree, 45)).toEqual(true);
-    expect(bfs(tree, 7)).toEqual(true);
-    expect(bfs(tree, 69)).toEqual(false);
+test(btbfs.name, () => {
+  expect(btbfs(tree, 45)).toEqual(true);
+  expect(btbfs(tree, 7)).toEqual(true);
+  expect(btbfs(tree, 69)).toEqual(false);
 });
-
-
-
-

@@ -1,3 +1,1 @@
-export default function bubble_sort(arr: number[]): void {
-
-}
+export const bubbleSort = (arr: number[]): void => {};
