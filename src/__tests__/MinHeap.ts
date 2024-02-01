@@ -1,7 +1,7 @@
 import { MinHeap } from '@code/MinHeap';
 
 test(MinHeap.name, () => {
-  const heap = new MinHeap();
+  const heap = new MinHeap<number>();
 
   expect(heap.length).toEqual(0);
 
