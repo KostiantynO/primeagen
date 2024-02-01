@@ -1,7 +1,7 @@
 import { LRU } from '@code/LRU';
 
 test(LRU.name, () => {
-  const lru = new LRU<string, number>(3) as ILRU<string, number>;
+  const lru = new LRU<string, number>(3) satisfies ILRU<string, number>;
 
   expect(lru.get('foo')).toEqual(undefined);
   lru.update('foo', 69);
